@@ -6,12 +6,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html, body{
+    overflow-x: hidden;
+}
+
 a{
     text-decoration: none;
 }
 
 #bgsection{
     background-color: #0A2640;
+}
+
+nav{
+    background-color: #0A2640 !important;
+    /* height: 2rem; */
+    padding: 30px 20px;
 }
 
 .nav-link{
@@ -105,19 +115,20 @@ a{
     background-color: #0A2640;
     color: #fff;
 }
-.enterprise-h1{
+#anenterprise{
     background-color: #0A2640;
 }
 .btn5{
-    padding: 15px 50px;
+    padding: 15px;
     border-radius: 50px;
     border: none;
-
 }
+
 .email{
     border-radius: 50px;
-     padding: 10px 30px;
-     width: 40%;
+     /* padding: 10px 30px; */
+     height: 40px;
+     width: 80%;
     border: none;
 }
 .phiring{
